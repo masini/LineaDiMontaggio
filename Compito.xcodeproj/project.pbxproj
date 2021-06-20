@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		77512058267E2AE4000772CB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77512057267E2AE4000772CB /* main.cpp */; };
+		77512060267E30AA000772CB /* Ascia.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7751205E267E30AA000772CB /* Ascia.cpp */; };
+		77512063267E379F000772CB /* Pezzo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77512061267E379F000772CB /* Pezzo.cpp */; };
+		77512066267E3C4E000772CB /* CassettoGrezzo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77512064267E3C4E000772CB /* CassettoGrezzo.cpp */; };
+		77512069267E98A2000772CB /* Linea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77512067267E98A2000772CB /* Linea.cpp */; };
+		7751206C267F3BEE000772CB /* Operaio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7751206A267F3BEE000772CB /* Operaio.cpp */; };
+		7751206F267F3FB3000772CB /* Montatore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7751206D267F3FB3000772CB /* Montatore.cpp */; };
+		77512072267F3FC6000772CB /* Verniciatore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77512070267F3FC6000772CB /* Verniciatore.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,20 @@
 /* Begin PBXFileReference section */
 		77512054267E2AE4000772CB /* Compito */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Compito; sourceTree = BUILT_PRODUCTS_DIR; };
 		77512057267E2AE4000772CB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7751205E267E30AA000772CB /* Ascia.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ascia.cpp; sourceTree = "<group>"; };
+		7751205F267E30AA000772CB /* Ascia.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Ascia.hpp; sourceTree = "<group>"; };
+		77512061267E379F000772CB /* Pezzo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pezzo.cpp; sourceTree = "<group>"; };
+		77512062267E379F000772CB /* Pezzo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Pezzo.hpp; sourceTree = "<group>"; };
+		77512064267E3C4E000772CB /* CassettoGrezzo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CassettoGrezzo.cpp; sourceTree = "<group>"; };
+		77512065267E3C4E000772CB /* CassettoGrezzo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CassettoGrezzo.hpp; sourceTree = "<group>"; };
+		77512067267E98A2000772CB /* Linea.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Linea.cpp; sourceTree = "<group>"; };
+		77512068267E98A2000772CB /* Linea.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Linea.hpp; sourceTree = "<group>"; };
+		7751206A267F3BEE000772CB /* Operaio.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Operaio.cpp; sourceTree = "<group>"; };
+		7751206B267F3BEE000772CB /* Operaio.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Operaio.hpp; sourceTree = "<group>"; };
+		7751206D267F3FB3000772CB /* Montatore.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Montatore.cpp; sourceTree = "<group>"; };
+		7751206E267F3FB3000772CB /* Montatore.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Montatore.hpp; sourceTree = "<group>"; };
+		77512070267F3FC6000772CB /* Verniciatore.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Verniciatore.cpp; sourceTree = "<group>"; };
+		77512071267F3FC6000772CB /* Verniciatore.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Verniciatore.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,20 @@
 			isa = PBXGroup;
 			children = (
 				77512057267E2AE4000772CB /* main.cpp */,
+				7751205E267E30AA000772CB /* Ascia.cpp */,
+				7751205F267E30AA000772CB /* Ascia.hpp */,
+				77512061267E379F000772CB /* Pezzo.cpp */,
+				77512062267E379F000772CB /* Pezzo.hpp */,
+				77512064267E3C4E000772CB /* CassettoGrezzo.cpp */,
+				77512065267E3C4E000772CB /* CassettoGrezzo.hpp */,
+				77512067267E98A2000772CB /* Linea.cpp */,
+				77512068267E98A2000772CB /* Linea.hpp */,
+				7751206A267F3BEE000772CB /* Operaio.cpp */,
+				7751206B267F3BEE000772CB /* Operaio.hpp */,
+				7751206D267F3FB3000772CB /* Montatore.cpp */,
+				7751206E267F3FB3000772CB /* Montatore.hpp */,
+				77512070267F3FC6000772CB /* Verniciatore.cpp */,
+				77512071267F3FC6000772CB /* Verniciatore.hpp */,
 			);
 			path = Compito;
 			sourceTree = "<group>";
@@ -118,7 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77512063267E379F000772CB /* Pezzo.cpp in Sources */,
 				77512058267E2AE4000772CB /* main.cpp in Sources */,
+				77512066267E3C4E000772CB /* CassettoGrezzo.cpp in Sources */,
+				7751206C267F3BEE000772CB /* Operaio.cpp in Sources */,
+				77512072267F3FC6000772CB /* Verniciatore.cpp in Sources */,
+				77512069267E98A2000772CB /* Linea.cpp in Sources */,
+				77512060267E30AA000772CB /* Ascia.cpp in Sources */,
+				7751206F267F3FB3000772CB /* Montatore.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
