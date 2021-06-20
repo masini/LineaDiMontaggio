@@ -11,20 +11,30 @@
 #include <stdio.h>
 #include <queue>
 
-#include "Pezzo.hpp"
+#include "Ascia.hpp"
+#include "CassettoGrezzo.hpp"
+
 
 using namespace std;
 
 class Linea {
+
 public:
     Linea(int n): numeroCassettiereGiornaliere(n) {}
     
+    void addAscia(Ascia *ascia);
+    Ascia *nextAscia();
+    
+    void addCassetto(CassettoGrezzo *cassetto);
+    CassettoGrezzo *nextCassetto();
+    
+    void decrementaNumeroCassettiereGiornaliere() { numeroCassettiereGiornaliere-=1;}
+
 private:
     int numeroCassettiereGiornaliere;
     
-    queue<Pezzo> codaAsce;
-    queue<Pezzo> codaCassettiere;
-    
+    queue<Ascia *> codaAsce;
+    queue<CassettoGrezzo *> codaCassettiere;
 };
 
 #endif /* Linea_hpp */

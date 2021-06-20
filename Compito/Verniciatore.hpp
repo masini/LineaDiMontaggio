@@ -18,6 +18,7 @@ using namespace std;
 class Verniciatore: public Operaio {
 public:
     Verniciatore(string nomeCognome, int matricola): Operaio(nomeCognome, matricola) {}
-    
+    void lavora(Linea *linea);
+
 };
 #endif /* Verniciatore_hpp */

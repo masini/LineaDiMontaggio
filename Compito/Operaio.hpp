@@ -19,7 +19,7 @@ class Operaio {
 public:
     Operaio(std::string nomeCognome, int matricola): matricola(matricola), nomeCognome(nomeCognome) {}
     
-    virtual void lavora(Linea *linea);
+    virtual void lavora(Linea *linea) = 0;
 private:
     int matricola;
     string nomeCognome;

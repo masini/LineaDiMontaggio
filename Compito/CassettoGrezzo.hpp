@@ -20,6 +20,9 @@ class CassettoGrezzo : public Pezzo {
 public:
     CassettoGrezzo(Ascia *ascia, bool d): Pezzo(d), nomeModello("Cassetto di "+ascia->getTipoLegno()), tipoLegno(ascia) {}
     
+    string getNomeModello() {
+        return nomeModello;
+    }
 private:
     Ascia *tipoLegno;
     string nomeModello;

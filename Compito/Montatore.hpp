@@ -18,7 +18,7 @@ using namespace std;
 class Montatore: public Operaio {
 public:
     Montatore(string nomeCognome, int matricola): Operaio(nomeCognome, matricola) {}
-    
+    void lavora(Linea *linea);
 };
 
 #endif /* Montatore_hpp */
